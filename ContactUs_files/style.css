@@ -57,7 +57,7 @@ a{
 	height: 50px;
     padding: 0;
 	margin: 0;
-	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	position: absolute; /* Ensures that the menu doesnï¿½t affect other elements */
 	width:760px;
 	}	
 	
@@ -102,12 +102,12 @@ li ul 	{
 .navbar li ul li a:hover	{background-color:#FFFFFF; color:#E87441;}	
 
 .head-left p {
-    padding-left: 15px;
-	font-size:24px;
+    padding-left: 106px;
+	font-size:56px;
 	letter-spacing:10px;
 	color:#FFFFFF;
-	margin:87px 0 10px;
-	font-family: 'arialnarrow';
+	margin:56px 45 27px;
+	font-family: 'fantasy';
 }
 
 .head-right{
@@ -176,7 +176,7 @@ input{
 	width:638px;
 	background:#FFFFFF;
 	margin-right:15px;
-	background:#E9E8D6;
+	background:aliceblue;
 	height:707px;
 	}
 .search-rg-left{
@@ -230,13 +230,13 @@ input{
 }
 	
 #cotain-middle h1{
-	color:#E66733;
-	margin:10px 0 8px;
+	color:black;
+	margin:10px 45px 19px;
 	padding:0;
 	text-transform:uppercase;
-	font-size:16px;
+	font-size:26px;
     font-family: 'swis721_wgl4_btroman';
-	letter-spacing:5px;
+	letter-spacing:px;
 	font-weight:bold;
 	}	
 	
@@ -439,7 +439,7 @@ label.input-label {
 }
 
 .form input[type="submit"] {
-    background: none repeat scroll 0 0 #E9763F;
+    background: none repeat scroll 0 0 lightcoral;
     border: medium none;
     color: #FFFFFF;
     float: left;
@@ -565,11 +565,11 @@ textarea {
 }	
 
 .contact {
-    background: none repeat scroll 0 0 #E9763F;
-    height: 566px;
-    margin-left: 30px;
-    padding: 20px;
-    width: 230px;
+    background: none repeat scroll 0 0 lightcoral;
+    height: 726px;
+    margin-left: 1px;
+    padding: 5px;
+    width: 311px;
 }
 
 .contact h2 {
@@ -623,14 +623,12 @@ textarea {
 	}
 
 body {
-    background: none repeat scroll 0 0 #736D6D;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 12px;
-    margin: 0;
+	background:url("MANAS/images/Agenda.jpeg") no-repeat center center fixed;
+	-webkit 
 }
 
 body {
-    background: none repeat scroll 0 0 #736D6D;
+	background:url("MANAS/images/Agenda.jpeg") no-repeat center center fixed;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 12px;
     margin: 0;
@@ -2348,3 +2346,4 @@ form{
 #slider1 .disable { visibility: hidden; }
 #slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; max-width: 240px; left: 0 top: 0; }
 #slider1 .overview li{ float: left; margin: 0 20px 0 0; padding: 0px; min-height: 300px; border: max-width: 200px;}
+
